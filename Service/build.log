@@ -1,0 +1,643 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.fattah:Service >-------------------------
+[INFO] Building Service 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Service ---
+[INFO] Deleting E:\MyJavaProject\Online_Shop\Service\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Service ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Service ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 55 source files with javac [debug target 22] to target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] location of system modules is not set in conjunction with -source 22
+  not setting the location of system modules may lead to class files that cannot run on JDK 22
+    --release 22 is recommended instead of -source 22 -target 22 because it sets the location of system modules automatically
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/file/FileService.java:[72,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.entity.file.File
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[45,15] cannot find symbol
+  symbol:   method setCreatedTime(java.time.LocalDateTime)
+  location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[46,15] cannot find symbol
+  symbol:   method setPayedTime(<nulltype>)
+  location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[47,15] cannot find symbol
+  symbol:   method setStatus(com.fattah.entity.enums.OrderStatus)
+  location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[49,18] cannot find symbol
+  symbol:   method getItems()
+  location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[49,46] cannot find symbol
+  symbol:   method getItems()
+  location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[50,41] cannot find symbol
+  symbol:   method getItems()
+  location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[51,74] cannot find symbol
+  symbol:   method getProduct()
+  location: variable invItem of type com.fattah.entity.order.InvoiceItem
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[52,41] cannot find symbol
+  symbol:   method getPrice()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[53,37] cannot find symbol
+  symbol:   method getPrice()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[53,56] cannot find symbol
+  symbol:   method getQuantity()
+  location: variable invItem of type com.fattah.entity.order.InvoiceItem
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[56,15] cannot find symbol
+  symbol:   method setTotalAmount(long)
+  location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[67,15] cannot find symbol
+  symbol:   method getId()
+  location: variable dto of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[67,35] cannot find symbol
+  symbol:   method getId()
+  location: variable dto of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[70,15] cannot find symbol
+  symbol:   method getItems()
+  location: variable dto of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[70,38] cannot find symbol
+  symbol:   method getItems()
+  location: variable dto of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[71,16] cannot find symbol
+  symbol:   method setVisitCount(long)
+  location: variable product of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[72,16] cannot find symbol
+  symbol:   method setAddDate(java.time.LocalDateTime)
+  location: variable product of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[73,16] cannot find symbol
+  symbol:   method setEnabled(boolean)
+  location: variable product of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[74,16] cannot find symbol
+  symbol:   method setExisted(boolean)
+  location: variable product of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[98,22] cannot find symbol
+  symbol:   method getId()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[98,48] cannot find symbol
+  symbol:   method getId()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[101,62] cannot find symbol
+  symbol:   method getId()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[102,56] cannot find symbol
+  symbol:   method getTitle()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[102,83] cannot find symbol
+  symbol:   method getTitle()
+  location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[103,62] cannot find symbol
+  symbol:   method getDescription()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[103,95] cannot find symbol
+  symbol:   method getDescription()
+  location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[104,56] cannot find symbol
+  symbol:   method getPrice()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[104,83] cannot find symbol
+  symbol:   method getPrice()
+  location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[105,58] cannot find symbol
+  symbol:   method getEnabled()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[105,87] cannot find symbol
+  symbol:   method getEnabled()
+  location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[106,58] cannot find symbol
+  symbol:   method getExisted()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[106,87] cannot find symbol
+  symbol:   method getExisted()
+  location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[107,19] cannot find symbol
+  symbol:   method getImage()
+  location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[108,71] cannot find symbol
+  symbol:   method getImage()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[108,111] cannot find symbol
+  symbol:   method getImage()
+  location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[123,22] cannot find symbol
+  symbol:   method getTitle()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[123,51] cannot find symbol
+  symbol:   method getTitle()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[141,22] cannot find symbol
+  symbol:   method getPrice()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[141,51] cannot find symbol
+  symbol:   method getPrice()
+  location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[54,46] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.dto.user.UserDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[55,30] cannot find symbol
+  symbol:   method getUsername()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[56,30] cannot find symbol
+  symbol:   method getPassword()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[57,27] cannot find symbol
+  symbol:   method getEmail()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[58,28] cannot find symbol
+  symbol:   method getMobile()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[59,38] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.dto.user.CustomerDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[60,39] cannot find symbol
+  symbol:   method getFirstname()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[61,38] cannot find symbol
+  symbol:   method getLastname()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[62,33] cannot find symbol
+  symbol:   method getTel()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[63,37] cannot find symbol
+  symbol:   method getAddress()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[64,40] cannot find symbol
+  symbol:   method getPostalCode()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[67,62] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[68,45] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.dto.user.LimitedUserDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[68,63] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.fattah.dto.user.UserDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[69,27] cannot find symbol
+  symbol:   method getItems()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[69,71] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.dto.invoice.InvoiceItemDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[70,44] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[71,40] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.dto.product.ColorDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[72,38] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.dto.product.SizeDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[76,73] cannot find symbol
+  symbol:   method getGateway()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[80,37] cannot find symbol
+  symbol:   method getId()
+  location: variable invoice of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[80,57] cannot find symbol
+  symbol:   method getTotalAmount()
+  location: variable invoice of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[77,38] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[78,32] cannot find symbol
+  symbol:   method getTotalAmount()
+  location: variable invoice of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[85,20] cannot find symbol
+  symbol:   method getGateway()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[123,16] cannot find symbol
+  symbol:   method getGateway()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[126,16] cannot find symbol
+  symbol:   method getFirstname()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[126,46] cannot find symbol
+  symbol:   method getFirstname()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[129,16] cannot find symbol
+  symbol:   method getLastname()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[129,45] cannot find symbol
+  symbol:   method getLastname()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[132,16] cannot find symbol
+  symbol:   method getUsername()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[132,45] cannot find symbol
+  symbol:   method getUsername()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[135,16] cannot find symbol
+  symbol:   method getPassword()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[135,45] cannot find symbol
+  symbol:   method getPassword()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[138,16] cannot find symbol
+  symbol:   method getMobile()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[138,43] cannot find symbol
+  symbol:   method getMobile()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[141,16] cannot find symbol
+  symbol:   method getTel()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[141,40] cannot find symbol
+  symbol:   method getTel()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[144,16] cannot find symbol
+  symbol:   method getAddress()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[144,44] cannot find symbol
+  symbol:   method getAddress()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[147,16] cannot find symbol
+  symbol:   method getPostalCode()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[147,47] cannot find symbol
+  symbol:   method getPostalCode()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[150,16] cannot find symbol
+  symbol:   method getItems()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[150,42] cannot find symbol
+  symbol:   method getItems()
+  location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[34,49] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.service.payment.provider.zarinpal.request.ZarinPalRequest
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[37,28] cannot find symbol
+  symbol:   method getAmount()
+  location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[39,33] cannot find symbol
+  symbol:   method getDescription()
+  location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[40,51] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.service.payment.provider.zarinpal.request.ZarinPalRequest.MetaData
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[41,27] cannot find symbol
+  symbol:   method getCustomer()
+  location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[41,51] cannot find symbol
+  symbol:   method getCustomer()
+  location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[42,28] cannot find symbol
+  symbol:   method getCustomer()
+  location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[42,52] cannot find symbol
+  symbol:   method getCustomer()
+  location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[43,30] cannot find symbol
+  symbol:   method getInvoice()
+  location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[43,53] cannot find symbol
+  symbol:   method getInvoice()
+  location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[48,46] cannot find symbol
+  symbol:   method getAuthority()
+  location: variable zarinPalResponse of type com.fattah.service.payment.provider.zarinpal.response.ZarinPalResponse
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[49,41] cannot find symbol
+  symbol:   method getCode()
+  location: variable zarinPalResponse of type com.fattah.service.payment.provider.zarinpal.response.ZarinPalResponse
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[50,50] cannot find symbol
+  symbol:   method getMessage()
+  location: variable zarinPalResponse of type com.fattah.service.payment.provider.zarinpal.response.ZarinPalResponse
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[53,39] cannot find symbol
+  symbol:   method getAuthority()
+  location: variable zarinPalResponse of type com.fattah.service.payment.provider.zarinpal.response.ZarinPalResponse
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[56,61] cannot find symbol
+  symbol:   method builder()
+  location: class com.fattah.service.payment.provider.zarinpal.request.ZarinPalVerifyRequest
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[58,28] cannot find symbol
+  symbol:   method getAmount()
+  location: variable trx of type com.fattah.entity.payment.Transaction
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  ?.??? s
+[INFO] Finished at: ????-??-??T??:??:??+03:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project Service: Compilation failure: Compilation failure: 
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/file/FileService.java:[72,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.entity.file.File
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[45,15] cannot find symbol
+[ERROR]   symbol:   method setCreatedTime(java.time.LocalDateTime)
+[ERROR]   location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[46,15] cannot find symbol
+[ERROR]   symbol:   method setPayedTime(<nulltype>)
+[ERROR]   location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[47,15] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.fattah.entity.enums.OrderStatus)
+[ERROR]   location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[49,18] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[49,46] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[50,41] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[51,74] cannot find symbol
+[ERROR]   symbol:   method getProduct()
+[ERROR]   location: variable invItem of type com.fattah.entity.order.InvoiceItem
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[52,41] cannot find symbol
+[ERROR]   symbol:   method getPrice()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[53,37] cannot find symbol
+[ERROR]   symbol:   method getPrice()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[53,56] cannot find symbol
+[ERROR]   symbol:   method getQuantity()
+[ERROR]   location: variable invItem of type com.fattah.entity.order.InvoiceItem
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[56,15] cannot find symbol
+[ERROR]   symbol:   method setTotalAmount(long)
+[ERROR]   location: variable invoice of type com.fattah.entity.order.Invoice
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[67,15] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable dto of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[67,35] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable dto of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[70,15] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable dto of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/order/InvoiceService.java:[70,38] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable dto of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[71,16] cannot find symbol
+[ERROR]   symbol:   method setVisitCount(long)
+[ERROR]   location: variable product of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[72,16] cannot find symbol
+[ERROR]   symbol:   method setAddDate(java.time.LocalDateTime)
+[ERROR]   location: variable product of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[73,16] cannot find symbol
+[ERROR]   symbol:   method setEnabled(boolean)
+[ERROR]   location: variable product of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[74,16] cannot find symbol
+[ERROR]   symbol:   method setExisted(boolean)
+[ERROR]   location: variable product of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[98,22] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[98,48] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[101,62] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[102,56] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[102,83] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[103,62] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[103,95] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[104,56] cannot find symbol
+[ERROR]   symbol:   method getPrice()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[104,83] cannot find symbol
+[ERROR]   symbol:   method getPrice()
+[ERROR]   location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[105,58] cannot find symbol
+[ERROR]   symbol:   method getEnabled()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[105,87] cannot find symbol
+[ERROR]   symbol:   method getEnabled()
+[ERROR]   location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[106,58] cannot find symbol
+[ERROR]   symbol:   method getExisted()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[106,87] cannot find symbol
+[ERROR]   symbol:   method getExisted()
+[ERROR]   location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[107,19] cannot find symbol
+[ERROR]   symbol:   method getImage()
+[ERROR]   location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[108,71] cannot find symbol
+[ERROR]   symbol:   method getImage()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[108,111] cannot find symbol
+[ERROR]   symbol:   method getImage()
+[ERROR]   location: variable oldData of type com.fattah.entity.product.Product
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[123,22] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[123,51] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[141,22] cannot find symbol
+[ERROR]   symbol:   method getPrice()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/product/ProductService.java:[141,51] cannot find symbol
+[ERROR]   symbol:   method getPrice()
+[ERROR]   location: variable productDto of type com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[54,46] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.dto.user.UserDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[55,30] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[56,30] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[57,27] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[58,28] cannot find symbol
+[ERROR]   symbol:   method getMobile()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[59,38] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.dto.user.CustomerDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[60,39] cannot find symbol
+[ERROR]   symbol:   method getFirstname()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[61,38] cannot find symbol
+[ERROR]   symbol:   method getLastname()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[62,33] cannot find symbol
+[ERROR]   symbol:   method getTel()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[63,37] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[64,40] cannot find symbol
+[ERROR]   symbol:   method getPostalCode()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[67,62] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[68,45] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.dto.user.LimitedUserDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[68,63] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.fattah.dto.user.UserDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[69,27] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[69,71] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.dto.invoice.InvoiceItemDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[70,44] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.dto.product.ProductDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[71,40] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.dto.product.ColorDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[72,38] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.dto.product.SizeDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[76,73] cannot find symbol
+[ERROR]   symbol:   method getGateway()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[80,37] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable invoice of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[80,57] cannot find symbol
+[ERROR]   symbol:   method getTotalAmount()
+[ERROR]   location: variable invoice of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[77,38] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[78,32] cannot find symbol
+[ERROR]   symbol:   method getTotalAmount()
+[ERROR]   location: variable invoice of type com.fattah.dto.invoice.InvoiceDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[85,20] cannot find symbol
+[ERROR]   symbol:   method getGateway()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[123,16] cannot find symbol
+[ERROR]   symbol:   method getGateway()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[126,16] cannot find symbol
+[ERROR]   symbol:   method getFirstname()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[126,46] cannot find symbol
+[ERROR]   symbol:   method getFirstname()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[129,16] cannot find symbol
+[ERROR]   symbol:   method getLastname()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[129,45] cannot find symbol
+[ERROR]   symbol:   method getLastname()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[132,16] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[132,45] cannot find symbol
+[ERROR]   symbol:   method getUsername()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[135,16] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[135,45] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[138,16] cannot find symbol
+[ERROR]   symbol:   method getMobile()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[138,43] cannot find symbol
+[ERROR]   symbol:   method getMobile()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[141,16] cannot find symbol
+[ERROR]   symbol:   method getTel()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[141,40] cannot find symbol
+[ERROR]   symbol:   method getTel()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[144,16] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[144,44] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[147,16] cannot find symbol
+[ERROR]   symbol:   method getPostalCode()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[147,47] cannot find symbol
+[ERROR]   symbol:   method getPostalCode()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[150,16] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/PaymentService.java:[150,42] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable dto of type com.fattah.dto.payment.GoToPaymentDto
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[34,49] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.service.payment.provider.zarinpal.request.ZarinPalRequest
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[37,28] cannot find symbol
+[ERROR]   symbol:   method getAmount()
+[ERROR]   location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[39,33] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[40,51] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.service.payment.provider.zarinpal.request.ZarinPalRequest.MetaData
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[41,27] cannot find symbol
+[ERROR]   symbol:   method getCustomer()
+[ERROR]   location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[41,51] cannot find symbol
+[ERROR]   symbol:   method getCustomer()
+[ERROR]   location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[42,28] cannot find symbol
+[ERROR]   symbol:   method getCustomer()
+[ERROR]   location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[42,52] cannot find symbol
+[ERROR]   symbol:   method getCustomer()
+[ERROR]   location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[43,30] cannot find symbol
+[ERROR]   symbol:   method getInvoice()
+[ERROR]   location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[43,53] cannot find symbol
+[ERROR]   symbol:   method getInvoice()
+[ERROR]   location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[48,46] cannot find symbol
+[ERROR]   symbol:   method getAuthority()
+[ERROR]   location: variable zarinPalResponse of type com.fattah.service.payment.provider.zarinpal.response.ZarinPalResponse
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[49,41] cannot find symbol
+[ERROR]   symbol:   method getCode()
+[ERROR]   location: variable zarinPalResponse of type com.fattah.service.payment.provider.zarinpal.response.ZarinPalResponse
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[50,50] cannot find symbol
+[ERROR]   symbol:   method getMessage()
+[ERROR]   location: variable zarinPalResponse of type com.fattah.service.payment.provider.zarinpal.response.ZarinPalResponse
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[53,39] cannot find symbol
+[ERROR]   symbol:   method getAuthority()
+[ERROR]   location: variable zarinPalResponse of type com.fattah.service.payment.provider.zarinpal.response.ZarinPalResponse
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[56,61] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.fattah.service.payment.provider.zarinpal.request.ZarinPalVerifyRequest
+[ERROR] /E:/MyJavaProject/Online_Shop/Service/src/main/java/com/fattah/service/payment/provider/zarinpal/provider/ZarinPalProvider.java:[58,28] cannot find symbol
+[ERROR]   symbol:   method getAmount()
+[ERROR]   location: variable trx of type com.fattah.entity.payment.Transaction
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

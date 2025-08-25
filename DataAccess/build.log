@@ -1,0 +1,75 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.fattah:DataAccess >------------------------
+[INFO] Building DataAccess 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ DataAccess ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DataAccess ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DataAccess ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 37 source files with javac [debug target 22] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[WARNING] /E:/MyJavaProject/Online_Shop/DataAccess/src/main/java/com/fattah/entity/product/Product.java:[29,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /E:/MyJavaProject/Online_Shop/DataAccess/src/main/java/com/fattah/entity/product/Product.java:[31,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /E:/MyJavaProject/Online_Shop/DataAccess/src/main/java/com/fattah/entity/user/User.java:[30,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /E:/MyJavaProject/Online_Shop/DataAccess/src/main/java/com/fattah/entity/site/Slider.java:[26,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /E:/MyJavaProject/Online_Shop/DataAccess/src/main/java/com/fattah/entity/payment/Payment.java:[23,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /E:/MyJavaProject/Online_Shop/DataAccess/src/main/java/com/fattah/entity/user/Permission.java:[29,30] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /E:/MyJavaProject/Online_Shop/DataAccess/src/main/java/com/fattah/entity/site/NavBar.java:[25,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /E:/MyJavaProject/Online_Shop/DataAccess/src/main/java/com/fattah/entity/product/ProductCategory.java:[24,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DataAccess ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DataAccess ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ DataAccess ---
+[INFO] skip non existing resourceDirectory E:\MyJavaProject\Online_Shop\DataAccess\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DataAccess ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ DataAccess ---
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ DataAccess ---
+[INFO] Building jar: E:\MyJavaProject\Online_Shop\DataAccess\target\DataAccess-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ DataAccess ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ DataAccess ---
+[INFO] Nothing to compile - all classes are up to date.
+[WARNING] Overwriting artifact's file from E:\MyJavaProject\Online_Shop\DataAccess\target\DataAccess-1.0-SNAPSHOT.jar to E:\MyJavaProject\Online_Shop\DataAccess\target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ DataAccess ---
+[INFO] skip non existing resourceDirectory E:\MyJavaProject\Online_Shop\DataAccess\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DataAccess ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ DataAccess ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ DataAccess ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ DataAccess ---
+[INFO] Installing E:\MyJavaProject\Online_Shop\DataAccess\pom.xml to C:\Users\Fattah\.m2\repository\com\fattah\DataAccess\1.0-SNAPSHOT\DataAccess-1.0-SNAPSHOT.pom
+[INFO] Installing E:\MyJavaProject\Online_Shop\DataAccess\target\DataAccess-1.0-SNAPSHOT.jar to C:\Users\Fattah\.m2\repository\com\fattah\DataAccess\1.0-SNAPSHOT\DataAccess-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  ?.??? s
+[INFO] Finished at: ????-??-??T??:??:??+03:30
+[INFO] ------------------------------------------------------------------------

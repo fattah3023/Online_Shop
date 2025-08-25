@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/01_nav.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/02_file.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/03_slider.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/04_pcat.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/05_product.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/06_color.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/07_size.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/08_pcolor.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/09_psize.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/10_content.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/11_blog.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/12_permissions.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/13_roles.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/14_role_permissions.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/15_users.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/16_user_roles.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/Doc/src/main/java/queries/17_customer.sql" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>

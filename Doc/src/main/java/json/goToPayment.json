@@ -1,0 +1,24 @@
+{
+  "firstname":"فتاح",
+  "lastname":"ارباب",
+  "gateway":"ZarinPal",
+  "username":"fattah1992",
+  "password":"1433575575",
+  "email":"fattaharb@gmail.com",
+  "mobile":"09135993023",
+  "tel":"03433113082",
+  "postalCode":"7615737491",
+  "address":"خیابان فیروزآباد 8،شرقی 7",
+  "items":[
+    {
+      "productId":66,
+      "sizeId":132,
+      "colorId":24,
+      "quantity":1
+    }
+  ]
+
+
+
+
+}

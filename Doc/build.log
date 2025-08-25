@@ -1,0 +1,62 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< com.fattah:Doc >---------------------------
+[INFO] Building Doc 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Doc ---
+[INFO] Deleting E:\MyJavaProject\Online_Shop\Doc\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Doc ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Doc ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Doc ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Doc ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Doc ---
+[INFO] skip non existing resourceDirectory E:\MyJavaProject\Online_Shop\Doc\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ Doc ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ Doc ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ Doc ---
+[INFO] Building jar: E:\MyJavaProject\Online_Shop\Doc\target\Doc-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Doc ---
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Doc ---
+[INFO] Nothing to compile - all classes are up to date.
+[WARNING] Overwriting artifact's file from E:\MyJavaProject\Online_Shop\Doc\target\Doc-1.0-SNAPSHOT.jar to E:\MyJavaProject\Online_Shop\Doc\target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Doc ---
+[INFO] skip non existing resourceDirectory E:\MyJavaProject\Online_Shop\Doc\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ Doc ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ Doc ---
+[INFO] No tests to run.
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ Doc ---
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ Doc ---
+[INFO] Installing E:\MyJavaProject\Online_Shop\Doc\pom.xml to C:\Users\Fattah\.m2\repository\com\fattah\Doc\1.0-SNAPSHOT\Doc-1.0-SNAPSHOT.pom
+[INFO] Installing E:\MyJavaProject\Online_Shop\Doc\target\Doc-1.0-SNAPSHOT.jar to C:\Users\Fattah\.m2\repository\com\fattah\Doc\1.0-SNAPSHOT\Doc-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  ?.??? s
+[INFO] Finished at: ????-??-??T??:??:??+03:30
+[INFO] ------------------------------------------------------------------------
