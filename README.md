@@ -6,7 +6,7 @@
 ---
 
 ## 🛠 مهارت‌ها
-## 🛠 مهارت‌ها در RestAPIs
+
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)  
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)  
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)  
@@ -24,7 +24,13 @@
 
 ---
 
-## 📊 آمار GitHub
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fattah3023&layout=compact&theme=dark)  
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=fattah3023&show_icons=true&theme=dark)  
 
+## 📊 پروژه GitHub
+
+
+![Online_Shop](Doc/project1.png)
+
+
+                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                  
